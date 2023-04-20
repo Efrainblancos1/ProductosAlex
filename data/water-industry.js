@@ -45,23 +45,16 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
+ 
 
-      imagenSmall: {
-
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/MedidorchorroúnicomodeloCombi.pdf"
 
     },
     // fin producto # 1 
@@ -69,61 +62,54 @@ dataJson = {
     // producto # 2 
     {
 
-      idProduct: "2MedidorUltrasonicoModeloJU550",
+      idProduct: "2MedidorchorroúnicomodeloC-300",
 
-      nameProduct: "Medidor ultrasónico modelo JU550",
+      nameProduct: "Medidor chorro único modelo C-300",
 
       detailGeneral: [
 
-        { detailDescription: 'Temperaturas almacenamiento' },
+        { detailDescription: 'DN13 Q3 2,5 m3 /h R ≤200' },
 
-        { detailDescription: '20°C a + 70°C(max. 2 semanas con T > 35°C)' },
+        { detailDescription: 'DN15 Q3 2,5 m3 /h R ≤200' },
 
-        { detailDescription: '13°F a + 158°F(max. 2 semanas con T > 95°F)', borderLine: true },
+        { detailDescription: 'DN20 Q3 4,0 m3 /h R ≤200', borderLine: true },
 
-        { detailDescription: 'Temperatura agua ' },
+        { detailDescription: 'Módulo B' },
 
-        { detailDescription: '0.1°C a + 50°C a 32°F a + 122°F', borderLine: true },
+        { detailDescription: 'nº TCM 142/08-4604', borderLine: true },
 
-        { detailDescription: 'Temperatura ambiente' },
+        { detailDescription: 'Módulo D' },
 
-        { detailDescription: '1°C a + 70°C a 34°F a + 158°F' }
+        { detailDescription: 'nº 0119-SJ-A002-10' }
 
       ],
 
       detailList: [
 
-        { characteristic: 'Ratio: R500' },
+        { characteristic: 'Medidor chorro único modelo C-300' },
 
-        { characteristic: 'Dimensiones: 1 / 2" a 1 1/2"' },
+        { characteristic: 'Ratio: R200' },
 
-        { characteristic: 'Totalizador: versión plana' },
+        { characteristic: 'Dimensiones: 1/2" a 3/4"' },
 
-        { characteristic: 'Registro: electrónico' },
+        { characteristic: 'Totalizador: versión plana e inclinada' },
+
+        { characteristic: 'Registro: policarbonato y cobre vidrio' },
 
         { characteristic: 'Cuerpo: Latón' },
 
-        { characteristic: 'Comunicación: Emisor de pulsos o M - bus cable / Wireless M - Bus / Wireless M - Bus - LoRa WAN Integrado * Batería de litio con una vida útil hasta 16 años' }
-
+        { characteristic: 'Transmisión: Magnética' }
       ],
 
-      imagenBig: {
+      imagen: {
 
-        src: 'assets/img/products/water-meter/water-industry/medidorUltrasonicoModeloJU5050.png',
+        src: 'assets/img/products/water-meter/water-industry/MedidorchorroúnicomodeloC-300.png',
 
-        alt: 'imagen grande de Medidor ultrasónico modelo JU550'
-
-      },
-
-      imagenSmall: {
-
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
+        alt: 'imagen de Medidor chorro único modelo C-300'
 
       },
 
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/MedidorchorroúnicomodeloC-300.pdf"
 
 
 
@@ -133,21 +119,21 @@ dataJson = {
     // producto # 3 
     {
 
-      idProduct: "1medidorChorroUnicoModeloCombi",
+      idProduct: "3MedidorvolumétricomodeloJV600",
 
-      nameProduct: "Medidor chorro único modelo Combi",
+      nameProduct: "Medidor volumétrico modelo JV600",
 
       detailGeneral: [
 
-        { detailDescription: 'DN13 Q3 2,5 m3 /h R125' },
+        { detailDescription: 'DN13/15 Q3 2,5 m3 /h' },
 
-        { detailDescription: 'DN15 Q3 2,5 m3 /h R125' },
+        { detailDescription: 'DN20 Q3 4 m3 /h' },
 
-        { detailDescription: 'DN20 Q3 4 m3 /h R125', borderLine: true },
+        { detailDescription: 'DN25 Q3 6,3 m3 /h', borderLine: true },
 
         { detailDescription: 'Módulo B' },
 
-        { detailDescription: 'nº TCM 142/13-5128', borderLine: true },
+        { detailDescription: 'TCM 142/14-5191', borderLine: true },
 
         { detailDescription: 'Módulo D' },
 
@@ -157,37 +143,33 @@ dataJson = {
 
       detailList: [
 
-        { characteristic: 'Ratio: R125' },
+        { characteristic: 'Ratio: R315 - R500' },
 
-        { characteristic: 'Dimensiones: 1/2" a 3/4"' },
+        { characteristic: 'Certificación de modelo R800' },
 
-        { characteristic: 'Totalizador: versión 45 grados' },
+        { characteristic: 'Dimensiones: 1/2" a 1"' },
 
-        { characteristic: 'Registro: policarbonato' },
+        { characteristic: 'Totalizador: versión plana' },
 
-        { characteristic: 'Cuerpo: Latón' },
+        { characteristic: 'Registro: policarbonato y cobre vidrio' },
 
-        { characteristic: 'Transmisión: Magnética' }
+        { characteristic: 'Cuerpo: Polimero técnico' },
+        
+        { characteristic: 'Transmisión: Magnética'}
 
       ],
 
-      imagenBig: {
+      imagen: {
 
-        src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
+        src: 'assets/img/products/water-meter/water-industry/MedidorvolumétricomodeloJV600.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
-
-      },
-
-      imagenSmall: {
-
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
+        alt: 'imagen de Medidor volumétrico modelo JV600'
 
       },
 
-      pdf: "assets/pdf/catalogoJM600.pdf"
+  
+
+      pdf: "assets/pdf/water-meter/water-industry/MedidorvolumétricomodeloJV600.pdf"
 
     },
     // fin producto # 3 
@@ -195,61 +177,58 @@ dataJson = {
     // producto # 4 
     {
 
-      idProduct: "1medidorChorroUnicoModeloCombi",
+      idProduct: "4MedidorvolumétricomodeloJV400",
 
-      nameProduct: "Medidor chorro único modelo Combi",
+      nameProduct: "Medidor volumétrico modelo JV400",
 
       detailGeneral: [
 
-        { detailDescription: 'DN13 Q3 2,5 m3 /h R125' },
+        { detailDescription: 'DN 13/15 Q3 ≤ 2,5 m3 /h y R ≤ 800' },
 
-        { detailDescription: 'DN15 Q3 2,5 m3 /h R125' },
+        { detailDescription: 'DN 20 Q3 ≤ 4 m3 /h y R ≤ 800' },
 
-        { detailDescription: 'DN20 Q3 4 m3 /h R125', borderLine: true },
+        { detailDescription: 'DN 25 Q3 ≤ 6,3 m3 /h y R ≤ 800', borderLine: true },
+
+        { detailDescription: 'DN 30 Q3 ≤ 10 m3 /h y R ≤ 800' },
+
+        { detailDescription: 'DN 40 Q3 ≤ 16 m3 /h y R ≤ 500', borderLine: true },
 
         { detailDescription: 'Módulo B' },
 
-        { detailDescription: 'nº TCM 142/13-5128', borderLine: true },
-
-        { detailDescription: 'Módulo D' },
-
-        { detailDescription: 'nº 0119-SJ-A002-10' }
+        { detailDescription: 'nº TCM 142/13-5128' },
+        
+        { detailDescription: 'nº 0119-SJ-A002-10'}
 
       ],
 
       detailList: [
 
-        { characteristic: 'Ratio: R125' },
+        { characteristic: 'Ratio: R315 - R500' },
 
-        { characteristic: 'Dimensiones: 1/2" a 3/4"' },
+        { characteristic: 'Certificación de modelo R800' },
 
-        { characteristic: 'Totalizador: versión 45 grados' },
+        { characteristic: 'Dimensiones: 1/2" a 1 1/2"' },
 
-        { characteristic: 'Registro: policarbonato' },
+        { characteristic: 'Totalizador: versión plana' },
+
+        { characteristic: 'Registro: policarbonato y cobre vidrio' },
 
         { characteristic: 'Cuerpo: Latón' },
 
-        { characteristic: 'Transmisión: Magnética' }
-
+        { characteristic: 'Transmisión: Magnética'}
       ],
 
-      imagenBig: {
+      imagen: {
 
-        src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
+        src: 'assets/img/products/water-meter/water-industry/MedidorvolumétricomodeloJV400.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
-
-      },
-
-      imagenSmall: {
-
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
+        alt: 'imagen de Medidor volumétrico modelo JV400'
 
       },
 
-      pdf: "assets/pdf/catalogoJM600.pdf"
+  
+
+      pdf: "assets/pdf/water-meter/water-industry/MedidorvolumétricomodeloJV400.pdf"
 
     },
     // fin producto # 4
@@ -257,37 +236,37 @@ dataJson = {
     // producto # 5 
     {
 
-      idProduct: "1medidorChorroUnicoModeloCombi",
+      idProduct: "5MedidorchorromúltiplemodeloJT200",
 
-      nameProduct: "Medidor chorro único modelo Combi",
+      nameProduct: "Medidor chorro múltiple modelo JT200",
 
       detailGeneral: [
 
-        { detailDescription: 'DN13 Q3 2,5 m3 /h R125' },
+        { detailDescription: 'DN15 Q3 2,5 m3 /h' },
 
-        { detailDescription: 'DN15 Q3 2,5 m3 /h R125' },
+        { detailDescription: 'DN20 Q3 4 m3 /h' },
 
-        { detailDescription: 'DN20 Q3 4 m3 /h R125', borderLine: true },
+        { detailDescription: 'Módulo B', borderLine: true },
 
-        { detailDescription: 'Módulo B' },
+        { detailDescription: 'nº TCM 142/18-5538' },
 
-        { detailDescription: 'nº TCM 142/13-5128', borderLine: true },
+        { detailDescription: 'Módulo D', borderLine: true },
 
-        { detailDescription: 'Módulo D' },
+        { detailDescription: 'nº 0119-SJ-A002-10' },
 
-        { detailDescription: 'nº 0119-SJ-A002-10' }
+
 
       ],
 
       detailList: [
 
-        { characteristic: 'Ratio: R125' },
+        { characteristic: 'Ratio R80' },
 
         { characteristic: 'Dimensiones: 1/2" a 3/4"' },
 
-        { characteristic: 'Totalizador: versión 45 grados' },
+        { characteristic: 'Totalizador: versión inclinado' },
 
-        { characteristic: 'Registro: policarbonato' },
+        { characteristic: 'Registro: Policarbonato' },
 
         { characteristic: 'Cuerpo: Latón' },
 
@@ -295,23 +274,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
-        src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
+        src: 'assets/img/products/water-meter/water-industry/MedidorchorromúltiplemodeloJT200.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
-
-      },
-
-      imagenSmall: {
-
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
+        alt: 'imagen de Medidor chorro múltiple modelo JT200'
 
       },
 
-      pdf: "assets/pdf/catalogoJM600.pdf"
+  
+
+      pdf: "assets/pdf/water-meter/water-industry/MedidorchorromúltiplemodeloJT200.pdf"
 
     },
     // fin producto # 5    
@@ -357,23 +330,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
     },
     // fin producto # 6 
@@ -419,23 +386,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorUltrasonicoModeloJU5050.png',
 
-        alt: 'imagen grande de Medidor ultrasónico modelo JU550'
+        alt: 'imagen de Medidor ultrasónico modelo JU550'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
 
 
@@ -483,23 +444,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
     },
     // fin producto # 8 
@@ -545,23 +500,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
     },
     // fin producto # 9
@@ -607,23 +556,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
     },
     // fin producto # 10 
@@ -669,23 +612,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
     },
     // fin producto # 11 
@@ -731,23 +668,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorUltrasonicoModeloJU5050.png',
 
-        alt: 'imagen grande de Medidor ultrasónico modelo JU550'
+        alt: 'imagen de Medidor ultrasónico modelo JU550'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
 
 
@@ -783,7 +714,7 @@ dataJson = {
 
         { characteristic: 'Ratio: R125' },
 
-        { characteristic: 'Dimensiones: 1/2" a 3/4"' },
+        { characteristic: 'Dimensiones: 1/2" a 3/4' },
 
         { characteristic: 'Totalizador: versión 45 grados' },
 
@@ -795,23 +726,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
     },
     // fin producto # 13 
@@ -857,23 +782,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
     },
     // fin producto # 14
@@ -919,23 +838,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
     },
     // fin producto # 15    
@@ -981,23 +894,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
     },
     // fin producto # 16 
@@ -1043,23 +950,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorUltrasonicoModeloJU5050.png',
 
-        alt: 'imagen grande de Medidor ultrasónico modelo JU550'
+        alt: 'imagen de Medidor ultrasónico modelo JU550'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
 
 
@@ -1107,23 +1008,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
     },
     // fin producto # 18 
@@ -1169,23 +1064,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
     },
     // fin producto # 19
@@ -1231,23 +1120,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
     },
     // fin producto # 20 
@@ -1293,23 +1176,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
     },
     // fin producto # 21 
@@ -1355,23 +1232,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorUltrasonicoModeloJU5050.png',
 
-        alt: 'imagen grande de Medidor ultrasónico modelo JU550'
+        alt: 'imagen de Medidor ultrasónico modelo JU550'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
 
 
@@ -1419,23 +1290,17 @@ dataJson = {
 
       ],
 
-      imagenBig: {
+      imagen: {
 
         src: 'assets/img/products/water-meter/water-industry/medidorChorroUnicoModeloCombi.png',
 
-        alt: 'imagen Grande de Medidor chorro único modelo Combi'
+        alt: 'imagen de Medidor chorro único modelo Combi'
 
       },
 
-      imagenSmall: {
+  
 
-        src: 'assets/img/products/water-meter/water-industry/small/medidorUltrasonicoModeloJU5050.png',
-
-        alt: 'imagen pequeña de Medidor ultrasónico modelo JU550'
-
-      },
-
-      pdf: "assets/pdf/catalogoJM600.pdf"
+      pdf: "assets/pdf/water-meter/water-industry/catalogoJM600.pdf"
 
     },
     // fin producto # 23 
