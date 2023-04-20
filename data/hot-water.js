@@ -20,14 +20,14 @@ dataJson = {
         { characteristic: 'Transmisión: directa' }
       ],
       imagenBig: {
-        src: 'assets/img/products/water-meter/water-hot/MedidorChorroUnicoModeloCDONE.png',
+        src: 'assets/img/products/water-meter/water-hot/medidorChorroUnicoModeloCDONE.png',
         alt: 'imagen Grande de Medidor chorro único modelo CD ONE'
       },
       imagenSmall: {
-        src: 'assets/img/products/water-meter/water-hot/small/SmallMedidorChorroUnicoModeloCDONE.png',
+        src: 'assets/img/products/water-meter/water-hot/small/smallMedidorChorroUnicoModeloCDONE.png',
         alt: 'imagen pequeña de Medidor chorro único modelo CD ONE'
       },
-      pdf: "assets\pdf\water-meter\hot-water\Catálogo-CD-ONE-TRP-1.pdf"
+      pdf: "assets/pdf/water-meter/water-hot/medidorChorroUnicoModeloCDONE.pdf"
     },
     {
       idProduct: "2MedidorUltrasonicoModeloJU550",
